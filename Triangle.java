@@ -28,6 +28,16 @@ public class Triangle
         color = "green";
         isVisible = false;
     }
+    
+    public Triangle(int horizontal, int vertical)
+    {
+        height = 60;
+        width = 70;
+        xPosition = horizontal;
+        yPosition = vertical;
+        color = "green";
+        isVisible = false;
+    }
 
     /**
      * Make this triangle visible. If it was already visible, do nothing.

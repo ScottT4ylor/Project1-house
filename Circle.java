@@ -26,6 +26,14 @@ public class Circle
         yPosition = 90;
         color = "blue";
     }
+    
+    public Circle(int horizontal, int vertical)
+    {
+        diameter = 68;
+        xPosition = horizontal;
+        yPosition = vertical;
+        color = "blue";
+    }
 
     /**
      * Make this circle visible. If it was already visible, do nothing.
